@@ -1,0 +1,60 @@
+
+"BIT Log Entry: [object Object]"
+BIT Log Entry: [object Object]
+BIT Log Entry: {"Concert Info For:":"Lizzo","Venue:":"Kaufmann Concert Hall","Concert Location:":"New York","Turn-Up Date:":"09-20-2019"}
+Spotify Log Entry: {"Artist(s):":"Panic! At The Disco","The song's name:":"High Hopes","A preview link of the song from Spotify:":"https://p.scdn.co/mp3-preview/f6404b1b3199442271c17d9e1461c3f2a52018f8?cid=5ff2ebb7c6e94f0a942f8f31d0ec0a0a","The album that the song is from:":"Pray for the Wicked"}Spotify Log Entry: {"Artist(s):":"Drake","Name of the Song:":"Money In The Grave (Drake ft. Rick Ross)","A preview link of the song from Spotify:":null,"The album that the song is from:":"The Best In The World Pack"}Spotify Log Entry: {"Artist(s):":"Panic! At The Disco","Song Title:":"High Hopes","A preview link of the song from Spotify:":"https://p.scdn.co/mp3-preview/f6404b1b3199442271c17d9e1461c3f2a52018f8?cid=5ff2ebb7c6e94f0a942f8f31d0ec0a0a","The album that the song is from:":"Pray for the Wicked"}OMDB Log Entry: {"Movie Title:":"Coming to America","Year Made:":"1988","IMDB Rating:":"7.0","Those Rotten Tomatoes:":"67%","Country:":"USA","Plot:":"An extremely pampered African Prince travels to Queens, New York, and goes undercover to find a wife that he can respect for her intelligence and will.","Actors:":"Paul Bates, Eddie Murphy, Garcelle Beauvais, Feather"}OMDB Log Entry: {"Movie Title:":"Coming to America","Year Made:":"1988","IMDB Rating:":"7.0","Those Rotten Tomatoes:":"67%","Country:":"USA","Language:":"English","Plot:":"An extremely pampered African Prince travels to Queens, New York, and goes undercover to find a wife that he can respect for her intelligence and will.","Actors:":"Paul Bates, Eddie Murphy, Garcelle Beauvais, Feather"}OMDB Log Entry: {"Movie Title:":"Coming to America","Year Made:":"1988","IMDB Rating:":"7.0","Those Rotten Tomatoes:":"67%","Country:":"USA","Language:":"English","Plot:":"An extremely pampered African Prince travels to Queens, New York, and goes undercover to find a wife that he can respect for her intelligence and will.","Actors:":"Paul Bates, Eddie Murphy, Garcelle Beauvais, Feather"}OMDB Log Entry: [object Object]
+OMDB Log Entry: [object Object]
+OMDB Log Entry: {"Movie Title:":"Coming to America","Year Made:":"1988","IMDB Rating:":"7.0","Those Rotten Tomatoes:":"67%","Country:":"USA","Language:":"English","Plot:":"An extremely pampered African Prince travels to Queens, New York, and goes undercover to find a wife that he can respect for her intelligence and will.","Actors:":"Paul Bates, Eddie Murphy, Garcelle Beauvais, Feather"}
+OMDB Log Entry: {"Movie Title:":"Coming to America","Year Made:":"1988","IMDB Rating:":"7.0","Those Rotten Tomatoes:":"67%","Country:":"USA","Language:":"English","Plot:":"An extremely pampered African Prince travels to Queens, New York, and goes undercover to find a wife that he can respect for her intelligence and will.","Actors:":"Paul Bates, Eddie Murphy, Garcelle Beauvais, Feather"}
+FS Log Entry: undefined
+Spotify Log Entry: {"Artist(s):":"Backstreet Boys","Song Title:":"I Want It That Way","A preview link of the song from Spotify:":"https://p.scdn.co/mp3-preview/e72a05dc3f69c891e3390c3ceaa77fad02f6b5f6?cid=5ff2ebb7c6e94f0a942f8f31d0ec0a0a","The album that the song is from:":"The Hits--Chapter One"}
+FS Log Entry: undefined
+Spotify Log Entry: {"Artist(s):":"Backstreet Boys","Song Title:":"I Want It That Way","A preview link of the song from Spotify:":"https://p.scdn.co/mp3-preview/e72a05dc3f69c891e3390c3ceaa77fad02f6b5f6?cid=5ff2ebb7c6e94f0a942f8f31d0ec0a0a","The album that the song is from:":"The Hits--Chapter One"}
+FS Log Entry: undefined
+Spotify Log Entry: {"Artist(s):":"Backstreet Boys","Song Title:":"I Want It That Way","A preview link of the song from Spotify:":"https://p.scdn.co/mp3-preview/e72a05dc3f69c891e3390c3ceaa77fad02f6b5f6?cid=5ff2ebb7c6e94f0a942f8f31d0ec0a0a","The album that the song is from:":"The Hits--Chapter One"}
+FS Log Entry: undefined
+Spotify Log Entry: {"Artist(s):":"Backstreet Boys","Song Title:":"I Want It That Way","A preview link of the song from Spotify:":"https://p.scdn.co/mp3-preview/e72a05dc3f69c891e3390c3ceaa77fad02f6b5f6?cid=5ff2ebb7c6e94f0a942f8f31d0ec0a0a","The album that the song is from:":"The Hits--Chapter One"}
+FS Log Entry: function liriStart(liriCommand, userCommand) {
+    var errorMessage;
+
+    switch (liriCommand) {
+        case "concert-this":
+            getBIT(userCommand);
+            break;
+
+        case "spotify-this-song":
+            getSpotify(userCommand);
+            break;
+
+        case "movie-this":
+            getOMDB(userCommand);
+            break;
+
+        case "do-what-it-says":
+            getFs();
+            break;
+
+        default:
+            errorMessage = "Not a Recognized Command. Please Use One of the Following Commands: concert-this, spotify-this-song, movie-this, or do-what-it-says. Thank You.";
+    }
+    console.log("..........................................................");
+    console.log(errorMessage);
+    console.log("..........................................................");
+}
+Spotify Log Entry: {"Artist(s):":"Backstreet Boys","Song Title:":"I Want It That Way","A preview link of the song from Spotify:":"https://p.scdn.co/mp3-preview/e72a05dc3f69c891e3390c3ceaa77fad02f6b5f6?cid=5ff2ebb7c6e94f0a942f8f31d0ec0a0a","The album that the song is from:":"The Hits--Chapter One"}
+FS Log Entry: Getting Random Text
+Spotify Log Entry: {"Artist(s):":"Backstreet Boys","Song Title:":"I Want It That Way","A preview link of the song from Spotify:":"https://p.scdn.co/mp3-preview/e72a05dc3f69c891e3390c3ceaa77fad02f6b5f6?cid=5ff2ebb7c6e94f0a942f8f31d0ec0a0a","The album that the song is from:":"The Hits--Chapter One"}
+FS Log Entry: Calling From Random Text File
+FS Log Entry: Calling From Random Text File
+Spotify Log Entry: {"Artist(s):":"Backstreet Boys","Song Title:":"I Want It That Way","A preview link of the song from Spotify:":"https://p.scdn.co/mp3-preview/e72a05dc3f69c891e3390c3ceaa77fad02f6b5f6?cid=5ff2ebb7c6e94f0a942f8f31d0ec0a0a","The album that the song is from:":"The Hits--Chapter One"}
+FS Log Entry: Calling From Random Text File
+FS Log Entry: Calling From Random Text File
+Spotify Log Entry: {"Artist(s):":"Michael Jackson","Song Title:":"Billie Jean","A preview link of the song from Spotify:":"https://p.scdn.co/mp3-preview/f504e6b8e037771318656394f532dede4f9bcaea?cid=5ff2ebb7c6e94f0a942f8f31d0ec0a0a","The album that the song is from:":"Thriller 25 Super Deluxe Edition"}
+Spotify Log Entry: {"Artist(s):":"Billie Eilish","Song Title:":"bad guy","A preview link of the song from Spotify:":null,"The album that the song is from:":"WHEN WE ALL FALL ASLEEP, WHERE DO WE GO?"}
+Spotify Log Entry: {"Artist(s):":"Quality Control","Song Title:":"Baby","A preview link of the song from Spotify:":null,"The album that the song is from:":"Baby"}
+Spotify Log Entry: {"Artist(s):":"Brandy","Song Title:":"The Boy Is Mine","A preview link of the song from Spotify:":"https://p.scdn.co/mp3-preview/2088d99205c4e8386d3de07cb6ce257caa430766?cid=5ff2ebb7c6e94f0a942f8f31d0ec0a0a","The album that the song is from:":"Never Say Never"}
+Spotify Log Entry: {"Artist(s):":"Brandy","Song Title:":"The Boy Is Mine","A preview link of the song from Spotify:":"https://p.scdn.co/mp3-preview/2088d99205c4e8386d3de07cb6ce257caa430766?cid=5ff2ebb7c6e94f0a942f8f31d0ec0a0a","The album that the song is from:":"Never Say Never"}
+Spotify Log Entry: {"Artist(s):":"Quality Control","Song Title:":"Baby","A preview link of the song from Spotify:":null,"The album that the song is from:":"Baby"}
+Spotify Log Entry: {"Artist(s):":"Michael Jackson","Song Title:":"Billie Jean","A preview link of the song from Spotify:":"https://p.scdn.co/mp3-preview/f504e6b8e037771318656394f532dede4f9bcaea?cid=5ff2ebb7c6e94f0a942f8f31d0ec0a0a","The album that the song is from:":"Thriller 25 Super Deluxe Edition"}
+Spotify Log Entry: {"Artist(s):":"Quality Control","Song Title:":"Baby","A preview link of the song from Spotify:":null,"The album that the song is from:":"Baby"}
+Spotify Log Entry: {"Artist(s):":"Pinkfong","Song Title:":"Baby Shark","A preview link of the song from Spotify:":"https://p.scdn.co/mp3-preview/7fba543ccc085d6399714adf93517fc467086e2d?cid=5ff2ebb7c6e94f0a942f8f31d0ec0a0a","The album that the song is from:":"Pinkfong Animal Songs"}

@@ -1,7 +1,7 @@
 {
   "name": "liri-node-app",
   "version": "1.0.0",
-  "description": "",
+  "description": "<strong>How It Works</strong> <br>Based off of Node.js, the Liri Node App functions off of a user's input from the command line to pull specific sets of data. Integrating with Bands In Town, Spotify, and OMDb APIs via the appropriate NPM modules, the Liri Node App uses API calls to search Spotify for songs, Bands in Town for concerts, and OMDB for movies. After parsing through the information that is returned from the API calls, the data is returned in a specfic format in JSON objects.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -16,5 +16,13 @@
   "bugs": {
     "url": "https://github.com/lilalekat/-liri-node-app/issues"
   },
-  "homepage": "https://github.com/lilalekat/-liri-node-app#readme"
+  "homepage": "https://github.com/lilalekat/-liri-node-app#readme",
+  "dependencies": {
+    "axios": "^0.19.0",
+    "dotenv": "^8.1.0",
+    "fs": "0.0.1-security",
+    "moment": "^2.24.0",
+    "node": "^12.10.0",
+    "node-spotify-api": "^1.1.1"
+  }
 }
