@@ -17,10 +17,8 @@ The Liri Node App can:
 (3) Search and Display OMDb lookup for a movie, **AND** <br>
 (4) Read Command and Query from another file<br>
 
-To use this App, please use the 'npm install' command via the Terminal to install the appropriate NPM packages. 
-
-Take a look at the Demo below<br>
-![Liri Node App Demo]()
+To see how the Liri Node App works, take a look at the Demo below:<br>
+![Liri Node App Demo](LiriNodeAppDemo.gif)
 
 <strong>The Liri Node App Was Built With the Following Technologies</strong>
 ___________
