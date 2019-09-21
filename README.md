@@ -1,5 +1,3 @@
-# liri-node-app
-
 <strong>The Liri Node App</strong>
 ___________
 <br>Based off of Node.js, the Liri Node App functions off of a user's input from the command line to pull specific sets of data. Integrating with Bands In Town, Spotify, and OMDb APIs via the appropriate NPM modules, the Liri Node App uses API calls to search Spotify for songs, Bands in Town for concerts, and OMDB for movies. After parsing through the information that is returned from the API calls, the data is returned in a specfic format in JSON objects. 
